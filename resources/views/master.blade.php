@@ -51,6 +51,23 @@
             </div>
         </div>
     </nav>
+    
+    <div class="container">
+        <div class="row">
+            <div class="box">
+                <div
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/jquery.js"></script>
 
+    <script src="js/bootstrap.min.js"></script>
+    
+    <script>
+        $('.carousel').carousel({
+            interval: 5000
+        }) 
+    </script>
 </body>
 </html>
