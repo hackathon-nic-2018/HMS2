@@ -55,8 +55,8 @@
     <div class="container">
         <div class="row">
             <div class="box">
-                <div class="col-md-7 text-left">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.3863364813583!2d-86.31168428568263!3d12.154079835577668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f715691a7ca253d%3A0xc842689a45b20872!2sEscuela+de+Hoteler%C3%ADa!5e0!3m2!1ses!2sni!4v1543536402041" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="col-md-7" style="padding-top: 5%;">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.3863364813583!2d-86.31168428568263!3d12.154079835577668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f715691a7ca253d%3A0xc842689a45b20872!2sEscuela+de+Hoteler%C3%ADa!5e0!3m2!1ses!2sni!4v1543536402041" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
                 </div>
 
                 <div class="col-md-4 text-left">
@@ -76,8 +76,8 @@
                     <hr></hr>
 
                     <strong><h3>Email:</h3></strong>
-
-                    <h4>info@hackathonicaragua.com.ni</h4>
+                    
+                    <h4 style="text-transform: lowercase;">hotelhackathon@gmail.com</h4>
                 </div>
                 </div>
             </div>
