@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\ClienteModel;
+Use Redirect;
 
 class ReservacionController extends Controller
 {
@@ -36,6 +37,7 @@ class ReservacionController extends Controller
     public function store(Request $request)
     {
         ClienteModel::create($request->all());
+        Redirect::back();
         
     }
 
