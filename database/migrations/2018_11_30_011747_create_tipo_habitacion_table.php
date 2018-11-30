@@ -13,9 +13,12 @@ class CreateTipoHabitacionTable extends Migration
      */
     public function up()
     {
-        Schema::create('tipo_habitacion', function (Blueprint $table) {
-            $table->increments('id');
-            $table->timestamps();
+        if (Schema::hasTable($this->set_schema_table)) return;
+        Schema::create($this->set_schema_table, function (Blueprint $table) {
+            $table->engine = 'InnoDB';
+            $table->increments('idtipo_habitacion');
+            $table->string('nombre', 45);
+            $table->double('costo');
         });
     }
 
