@@ -37,7 +37,7 @@ class ReservacionController extends Controller
     public function store(Request $request)
     {
         ClienteModel::create($request->all());
-        Redirect::back();
+        return Redirect::back();
         
     }
 
