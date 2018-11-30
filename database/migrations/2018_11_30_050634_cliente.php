@@ -21,6 +21,7 @@ class Cliente extends Migration
             $table->increments('identificacion');
             $table->unsignedInteger('telefono');
             $table->string('correo', 45);
+            $table->timestamps();
         });
     }
 

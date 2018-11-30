@@ -12,12 +12,14 @@
 */
 
 Route::get('/', function () {
+	//dd('paja');
     return view('master');
 });
 
-Route::get('/reserva', function () {
+Route::resource('reserva', 'ReservacionController');
+/*Route::get('/reserva', function () {
     return view('reserva');
-});
+});*/
 
 Route::get('/encontrar', function () {
     return view('encontrar');

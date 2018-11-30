@@ -73,7 +73,8 @@
                             </div>
                         </div>
 
-                        <form role="form">
+                        <form role="form" method="POST" action="{!! url('/reserva') !!}">
+                            {{csrf_field()}}
                             <div class="panel panel-primary setup-content" id="step-1">
                                 <div class="panel-heading">
                                    <h3 class="panel-title">Información Personal</h3>
@@ -81,25 +82,25 @@
                                <div class="panel-body">
                                 <div class="form-group">
                                     <label class="control-label">Nombres</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text" name="nombre" class="form-control"/>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Apellidos</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text" name="apellido" class="form-control"/>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Email</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text" name="correo" class="form-control"/>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Teléfono</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text" name="telefono" class="form-control"/>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Identificación</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text" name="identificacion" class="form-control"/>
                                 </div>
-                                <button class="btn btn-primary nextBtn pull-right" type="button">Siguiente</button>
+                                <button class="btn btn-primary nextBtn pull-right" action="{!! url('/reserva') !!}" type="button" type="submit">Siguiente</button>
                             </div>
                         </div>
                         <!-- Piso, Tipo de habitacion, Descripcion de  la habitacion, Tiempo de reservacion-->
@@ -125,7 +126,7 @@
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Tiempo de reservación</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text"  class="form-control"/>
                                 </div>
                                 <button class="btn btn-primary nextBtn pull-right" type="button">Siguiente</button>
                             </div>
@@ -138,23 +139,23 @@
                                <div class="panel-body">
                                 <div class="form-group">
                                     <label class="control-label">Nombres</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text"  class="form-control"/>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Apellidos</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text"  class="form-control"/>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Email</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text"  class="form-control"/>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Teléfono</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text"  class="form-control"/>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Identificación</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <input maxlength="100" type="text"  class="form-control"/>
                                 </div>
                                 <div class="form-group">
                                     <label for="selectPiso">Numero de Piso</label>

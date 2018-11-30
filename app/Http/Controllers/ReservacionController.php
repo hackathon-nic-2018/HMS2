@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\ClienteModel;
 
 class ReservacionController extends Controller
 {
@@ -13,7 +14,7 @@ class ReservacionController extends Controller
      */
     public function index()
     {
-        //
+        return view('reserva');
     }
 
     /**
@@ -23,7 +24,7 @@ class ReservacionController extends Controller
      */
     public function create()
     {
-        //
+        return view('reserva');
     }
 
     /**
@@ -34,7 +35,8 @@ class ReservacionController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        ClienteModel::create($request->all());
+        
     }
 
     /**
