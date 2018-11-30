@@ -109,12 +109,19 @@
                                </div>
                                <div class="panel-body">
                                 <div class="form-group">
-                                    <label class="control-label">Piso</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <label for="selectPiso">Numero de Piso</label>
+                                    <select class="form-control" id="selectPiso">
+                                    <option>1</option>
+                                    <option>2</option>
+                                </select>
                                 </div>
                                 <div class="form-group">
-                                    <label class="control-label">Tipo de Habitación</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <label for="selectTipoHabitacion">Tipo de Habitación</label>
+                                    <select class="form-control" id="selectTipoHabitacion">
+                                    <option>Sencilla</option>
+                                    <option>Suite</option>
+                                    <option>Matrimonial</option>
+                                </select>
                                 </div>
                                 <div class="form-group">
                                     <label class="control-label">Tiempo de reservación</label>
@@ -150,16 +157,19 @@
                                     <input maxlength="100" type="text" required="required" class="form-control"/>
                                 </div>
                                 <div class="form-group">
-                                    <label class="control-label">Piso</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <label for="selectPiso">Numero de Piso</label>
+                                    <select class="form-control" id="selectPiso">
+                                    <option>1</option>
+                                    <option>2</option>
+                                </select>
                                 </div>
                                 <div class="form-group">
-                                    <label class="control-label">Tipo de Habitación</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Tiempo de reservación</label>
-                                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                                    <label for="selectTipoHabitacion">Numero de Piso</label>
+                                    <select class="form-control" id="selectTipoHabitacion">
+                                    <option>Sencilla</option>
+                                    <option>Suite</option>
+                                    <option>Matrimonial</option>
+                                </select>
                                 </div>
                                 <button class="btn btn-primary nextBtn pull-right" type="button">Finalizar</button>
                             </div>
