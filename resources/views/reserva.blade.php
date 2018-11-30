@@ -84,7 +84,6 @@
                                     <label class="control-label">Identificación</label>
                                     <input maxlength="100" type="text" name="identificacion" class="form-control"/>
                                 </div>
-                                <button class="btn btn-primary nextBtn pull-right" type="submit">Siguiente</button>
                             </div>
                         </div>
                         <!-- Piso, Tipo de habitacion, Descripcion de  la habitacion, Tiempo de reservacion-->
@@ -112,51 +111,7 @@
                                     <label class="control-label">Tiempo de reservación</label>
                                     <input maxlength="100" type="text"  class="form-control"/>
                                 </div>
-                                <button class="btn btn-primary nextBtn pull-right" type="button">Siguiente</button>
-                            </div>
-                        </div>
-
-                        <div class="panel panel-primary setup-content" id="step-3">
-                                <div class="panel-heading">
-                                   <h3 class="panel-title">Resumen</h3>
-                               </div>
-                               <div class="panel-body">
-                                <div class="form-group">
-                                    <label class="control-label">Nombres</label>
-                                    <input maxlength="100" type="text"  class="form-control"/>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Apellidos</label>
-                                    <input maxlength="100" type="text"  class="form-control"/>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Email</label>
-                                    <input maxlength="100" type="text"  class="form-control"/>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Teléfono</label>
-                                    <input maxlength="100" type="text"  class="form-control"/>
-                                </div>
-                                <div class="form-group">
-                                    <label class="control-label">Identificación</label>
-                                    <input maxlength="100" type="text"  class="form-control"/>
-                                </div>
-                                <div class="form-group">
-                                    <label for="selectPiso">Numero de Piso</label>
-                                    <select class="form-control" id="selectPiso">
-                                    <option>1</option>
-                                    <option>2</option>
-                                </select>
-                                </div>
-                                <div class="form-group">
-                                    <label for="selectTipoHabitacion">Numero de Piso</label>
-                                    <select class="form-control" id="selectTipoHabitacion">
-                                    <option>Sencilla</option>
-                                    <option>Suite</option>
-                                    <option>Matrimonial</option>
-                                </select>
-                                </div>
-                                <button class="btn btn-primary nextBtn pull-right" type="button">Finalizar</button>
+                                <button class="btn btn-primary pull-right" type="submit">Ingresar</button>
                             </div>
                         </div>
             </form>
