@@ -28,6 +28,6 @@ class Piso extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('piso');
     }
 }

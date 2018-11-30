@@ -31,18 +31,18 @@ class Reserva extends Migration
 
             $table->foreign('idcliente', 'fk_reservacion_cliente_idx')
                 ->references('idcliente')->on('cliente')
-                ->onDelete('no action')
-                ->onUpdate('no action');
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
 
             $table->foreign('idhabitacion', 'fk_reservacion_habitacion1_idx')
                 ->references('idhabitacion')->on('habitacion')
-                ->onDelete('no action')
-                ->onUpdate('no action');
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
 
             $table->foreign('idfactura', 'fk_reservacion_factura1_idx')
                 ->references('idfactura')->on('factura')
-                ->onDelete('no action')
-                ->onUpdate('no action');
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
         });
     }
 
@@ -53,6 +53,6 @@ class Reserva extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('reservacion');
     }
 }

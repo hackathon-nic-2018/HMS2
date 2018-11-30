@@ -28,6 +28,6 @@ class Factura extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('factura');
     }
 }

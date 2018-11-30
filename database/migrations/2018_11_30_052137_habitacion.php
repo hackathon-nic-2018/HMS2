@@ -27,13 +27,13 @@ class Habitacion extends Migration
 
             $table->foreign('idpiso', 'fk_habitacion_piso1_idx')
                 ->references('idpiso')->on('piso')
-                ->onDelete('no action')
-                ->onUpdate('no action');
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
 
             $table->foreign('idtipo_habitacion', 'fk_habitacion_tipo_habitacion1_idx')
                 ->references('idtipo_habitacion')->on('tipo_habitacion')
-                ->onDelete('no action')
-                ->onUpdate('no action');
+                ->onDelete('cascade')
+                ->onUpdate('cascade');
         });
     }
 
@@ -44,6 +44,6 @@ class Habitacion extends Migration
      */
     public function down()
     {
-        //
+        Schema::dropIfExists('habitacion');
     }
 }
