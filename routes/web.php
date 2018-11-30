@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/reserva', function () {
     return view('reserva');
 });
+
+Route::get('/encontrar', function () {
+    return view('encontrar');
+});

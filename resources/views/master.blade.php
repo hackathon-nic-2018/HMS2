@@ -30,7 +30,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="{!! url('master') !!}">Hotel Hackathon</a>
+                <a class="navbar-brand" href="{!! url('/') !!}">Hotel Hackathon</a>
             </div>
 
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -42,7 +42,7 @@
                         <a href="{!! url('/reserva') !!}">Reservar</a>
                     </li>
                     <li>
-                        <a href="">Como llegar</a>
+                        <a href="{!! url('/encontrar') !!}">Como llegar</a>
                     </li>
                     <li>
                         <a href="">Acerca de</a>
@@ -105,13 +105,12 @@
             </div>
         </div>
     </div>
-
-    @yield('modulo')
     
     <script src="js/jquery.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
     
+    <!-- Solo sirve para ver cuanto tarda en transicionar los slides -->
     <script>
         $('.carousel').carousel({
             interval: 5000

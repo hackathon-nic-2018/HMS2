@@ -45,7 +45,7 @@
                                         <a href="{!! url('/reserva') !!}">Reservar</a>
                                     </li>
                                     <li>
-                                        <a href="">Como llegar</a>
+                                        <a href="{!! url('/encontrar') !!}">Como llegar</a>
                                     </li>
                                     <li>
                                         <a href="">Acerca de</a>
