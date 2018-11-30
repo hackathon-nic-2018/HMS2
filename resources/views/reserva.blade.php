@@ -54,25 +54,9 @@
                             </div>
                         </div>
                     </nav>
-                    
-                    <div class="container">
-                        <div class="stepwizard">
-                            <div class="stepwizard-row setup-panel">
-                                <div class="stepwizard-step col-xs-4"> 
-                                    <a href="#step-1" type="button" class="btn btn-success btn-circle">1</a>
-                                    <p><small>Información Personal</small></p>
-                                </div>
-                                <div class="stepwizard-step col-xs-4"> 
-                                    <a href="#step-2" type="button" class="btn btn-default btn-circle">2</a>
-                                    <p><small>Información de Reservación</small></p>
-                                </div>
-                                <div class="stepwizard-step col-xs-4"> 
-                                    <a href="#step-3" type="button" class="btn btn-default btn-circle">3</a>
-                                    <p><small>Resumen</small></p>
-                                </div>
-                            </div>
-                        </div>
 
+                    <div class="container">
+                        
                         <form role="form" method="POST" action="{!! url('/reserva') !!}">
                             {{csrf_field()}}
                             <div class="panel panel-primary setup-content" id="step-1">
@@ -100,7 +84,7 @@
                                     <label class="control-label">Identificación</label>
                                     <input maxlength="100" type="text" name="identificacion" class="form-control"/>
                                 </div>
-                                <button class="btn btn-primary nextBtn pull-right" action="{!! url('/reserva') !!}" type="button" type="submit">Siguiente</button>
+                                <button class="btn btn-primary nextBtn pull-right" type="button" type="submit">Siguiente</button>
                             </div>
                         </div>
                         <!-- Piso, Tipo de habitacion, Descripcion de  la habitacion, Tiempo de reservacion-->
@@ -247,7 +231,7 @@
 
             <script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
             <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-            <script src="assets/js/jquery.bootstrap.wizard.js" type="text/javascript"></script>
+            <!-- <script src="assets/js/jquery.bootstrap.wizard.js" type="text/javascript"></script> -->
 
             <script src="assets/js/gsdk-bootstrap-wizard.js"></script>
 
