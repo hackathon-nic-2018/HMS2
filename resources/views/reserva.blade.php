@@ -111,7 +111,7 @@
                                     <label class="control-label">Tiempo de reservación</label>
                                     <input maxlength="100" type="text"  class="form-control"/>
                                 </div>
-                                <button class="btn btn-primary pull-right" type="submit">Ingresar</button>
+                                <button class="btn btn-primary pull-right" type="submit" onclick="mostrarExito()">Ingresar</button>
                             </div>
                         </div>
             </form>
@@ -130,7 +130,7 @@
 
             <script src="js/bootstrap.min.js"></script>
             
-            <style>
+<style>
     .stepwizard-step p {
         margin-top: 0px;
         color:white;
@@ -180,8 +180,13 @@
         line-height: 1.428571429;
         border-radius: 15px;
     }                
-            </style>
+</style>
 
+<script>
+    function mostrarExito() {
+        alert("Registro exitoso!")
+    }
+</script>
             </body>
 
             <script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
