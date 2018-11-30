@@ -41,7 +41,7 @@
                         <a href="{!! url('/') !!}">Inicio</a>
                     </li>
                     <li>
-                        <a href="">Reservar</a>
+                        <a href="{!! url('/reserva') !!}">Reservar</a>
                     </li>
                     <li>
                         <a href="">Como llegar</a>
