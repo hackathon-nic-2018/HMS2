@@ -15,6 +15,6 @@ Route::get('/', function () {
     return view('master');
 });
 
-Route::get('/', function () {
-    return view('inicio');
+Route::get('/reserva', function () {
+    return view('reserva');
 });
