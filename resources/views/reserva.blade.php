@@ -100,7 +100,7 @@
                                     <label class="control-label">Identificación</label>
                                     <input maxlength="100" type="text" name="identificacion" class="form-control"/>
                                 </div>
-                                <button class="btn btn-primary nextBtn pull-right" action="{!! url('/reserva') !!}" type="button" type="submit">Siguiente</button>
+                                <button class="btn btn-primary nextBtn pull-right" type="button" type="submit">Siguiente</button>
                             </div>
                         </div>
                         <!-- Piso, Tipo de habitacion, Descripcion de  la habitacion, Tiempo de reservacion-->
