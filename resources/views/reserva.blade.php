@@ -135,58 +135,9 @@
     <script src="js/jquery.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
-    
-    <script>
-        $(document).ready(function () {
-
-    var navListItems = $('div.setup-panel div a'),
-        allWells = $('.setup-content'),
-        allNextBtn = $('.nextBtn');
-
-    allWells.hide();
-
-    navListItems.click(function (e) {
-        e.preventDefault();
-        var $target = $($(this).attr('href')),
-            $item = $(this);
-
-        if (!$item.hasClass('disabled')) {
-            navListItems.removeClass('btn-success').addClass('btn-default');
-            $item.addClass('btn-success');
-            allWells.hide();
-            $target.show();
-            $target.find('input:eq(0)').focus();
-        }
-    });
-
-    allNextBtn.click(function () {
-        var curStep = $(this).closest(".setup-content"),
-            curStepBtn = curStep.attr("id"),
-            nextStepWizard = $('div.setup-panel div a[href="#' + curStepBtn + '"]').parent().next().children("a"),
-            curInputs = curStep.find("input[type='text'],input[type='url']"),
-            isValid = true;
-
-        $(".form-group").removeClass("has-error");
-        for (var i = 0; i < curInputs.length; i++) {
-            if (!curInputs[i].validity.valid) {
-                isValid = false;
-                $(curInputs[i]).closest(".form-group").addClass("has-error");
-            }
-        }
-
-        if (isValid) nextStepWizard.removeAttr('disabled').trigger('click');
-    });
-
-    $('div.setup-panel div a.btn-success').trigger('click');
-});
-    </script>
 
     <style type="text/css">
-        /* Latest compiled and minified CSS included as External Resource*/
-
-/* Optional theme */
-
-/*@import url('//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-theme.min.css');*/
+    
 
 .stepwizard-step p {
     margin-top: 0px;
@@ -238,15 +189,17 @@
     line-height: 1.428571429;
     border-radius: 15px;
 }
-    </style>
+</style>
+
 </body>
 
 <script src="assets/js/jquery-2.2.4.min.js" type="text/javascript"></script>
 <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
 <script src="assets/js/jquery.bootstrap.wizard.js" type="text/javascript"></script>
 
-
 <script src="assets/js/gsdk-bootstrap-wizard.js"></script>
+
+<script src="assets/js/gsdk-bootstrap-forms.js"></script>
 
 <script src="assets/js/jquery.validate.min.js"></script>
 
