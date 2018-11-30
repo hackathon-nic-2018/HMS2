@@ -22,3 +22,7 @@ Route::get('/reserva', function () {
 Route::get('/encontrar', function () {
     return view('encontrar');
 });
+
+Route::get('/acercade', function () {
+    return view('acercade');
+});

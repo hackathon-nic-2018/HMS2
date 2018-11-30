@@ -48,7 +48,7 @@
                                         <a href="{!! url('/encontrar') !!}">Como llegar</a>
                                     </li>
                                     <li>
-                                        <a href="">Acerca de</a>
+                                        <a href="{!! url('/acercade') !!}">Acerca de</a>
                                     </li>
                                 </ul>
                             </div>

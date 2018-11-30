@@ -51,49 +51,24 @@
             </div>
         </div>
     </nav>
-    
+
+
     <div class="container">
         <div class="row">
             <div class="box">
-                <div class="col-md-7" style="padding-top: 5%;">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.3863364813583!2d-86.31168428568263!3d12.154079835577668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8f715691a7ca253d%3A0xc842689a45b20872!2sEscuela+de+Hoteler%C3%ADa!5e0!3m2!1ses!2sni!4v1543536402041" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                </div>
-
-                <div class="col-md-4 text-left">
-                    
-                    <strong><h3>Dirección:</h3></strong>
-                    
-                    <h4>Las Brisas, Costado Norte Instituto Manuel Olivares Managua - Managua</h4>
-                    
-                    <hr></hr>
-
-                    <strong><h3>Teléfono:</h3></strong>
-                    <li><h4>(+505) 2255 9122</h4></li>
-                    <li><h4>(+505) 2255 9121</h4></li>
-                    <li><h4>(+505) 2255 9123</h4></li>
-                    <li><h4>(+505) 2255 9120</h4></li>
-
-                    <hr></hr>
-
-                    <strong><h3>Email:</h3></strong>
-                    
-                    <h4 style="text-transform: lowercase;">hotelhackathon@gmail.com</h4>
-                </div>
-                </div>
-            </div>
+                <h3>Historia del Hotel Hackathon</h3>
+                <p class="text-justify">
+                    Hotel Hackathon fundado en el año 2017 como parte de la idea de un grupo de estudiantes universitarios de la carrera de Turismo y Hoteleria. Gracias a los grandes esfuerzos que el hotel Hackathon en conjunto con el gobierno han permitido que se convierta en uno de los mejores hoteles en Centro America. 
+                </p>
+                <hr></hr>
+                <h3>HMS</h3>
+                <p class="text-justify">
+                    HMS (Hotel Management System) es una marca mas de Soluciones Informaticas Matagalpa. HMS y todas las marcas estan protegidas por las leyes de copyright de la empresa SIM. 
+                </p>
+            </div>       
         </div>
     </div>
     
-    <footer>
-                <div class="container" >
-                    <div class="row">
-                        <div class="col-lg-12 text-center">
-                            <p style="padding : 15px">Copyright &copy; Soluciones Informaticas Matagalpa 2018-2019</p>
-                        </div>
-                    </div>
-                </div>
-            </footer>
-
     <script src="js/jquery.js"></script>
 
     <script src="js/bootstrap.min.js"></script>
