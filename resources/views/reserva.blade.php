@@ -94,6 +94,10 @@
                     <label class="control-label">Teléfono</label>
                     <input maxlength="100" type="text" required="required" class="form-control"/>
                 </div>
+                <div class="form-group">
+                    <label class="control-label">Identificación</label>
+                    <input maxlength="100" type="text" required="required" class="form-control"/>
+                </div>
                 <button class="btn btn-primary nextBtn pull-right" type="button">Siguiente</button>
             </div>
         </div>
